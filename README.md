@@ -9,5 +9,8 @@ Under review in Journal: IEEE/ACM Transactions on Computational Biology and Bioi
 
 Prerequisites: Python 3.6, numpy 1.10+, pytorch 1.1.0
 
+# Proposed networks
+![](Images/i2.png)
+
 # Result
 ![](Images/i1.png)
