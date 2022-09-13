@@ -11,6 +11,7 @@ Prerequisites: Python 3.6, numpy 1.10+, pytorch 1.1.0
 
 # Proposed networks
 ![](Images/i2.png)
+![](Images/i3.png)
 
 # Result
 ![](Images/i1.png)
