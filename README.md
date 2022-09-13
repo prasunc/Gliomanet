@@ -8,3 +8,6 @@ Affiliations: University of Sheffield and  Indian Institute of Technology (ISM) 
 Under review in Journal: IEEE/ACM Transactions on Computational Biology and Bioinformatics
 
 Prerequisites: Python 3.6, numpy 1.10+, pytorch 1.1.0
+
+# Result
+![](Images/i1.png)
