@@ -63,7 +63,7 @@ class UpBlock(nn.Module):
     
     def forward(self, x, down_features):
         x = self.up(x)
-        x = torch.cat([x, down_features], dim=1) # 横向拼接
+        x = torch.cat([x, down_features], dim=1)
         x = self.down(x)
         return x
 
