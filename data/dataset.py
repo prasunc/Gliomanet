@@ -48,7 +48,7 @@ class BraTS2019(Dataset):
 			print(path)
 		if self.is_train:
 			image, label, box_min, box_max = self.first_pre(path)
-			# image, label = self.second_pre(image, label) # 切片
+			
 			image = torch.from_numpy(image).float()
 			label = torch.from_numpy(label).float()
 
@@ -265,7 +265,7 @@ class BraTS2019_Random(Dataset):
 			print(path)
 		if self.is_train:
 			image, label, box_min, box_max = self.first_pre(path)
-			# image, label = self.second_pre(image, label) # 切片
+			# image, label = self.second_pre(image, label)
 			image = torch.from_numpy(image).float()
 			label = torch.from_numpy(label).float()
 
