@@ -42,9 +42,9 @@ class UpConv(nn.Module):
         return x
 
 
-class test(nn.Module):
+class Test(nn.Module):
     def __init__(self, in_data, out_data):
-        super(test, self).__init__()
+        super(Test, self).__init__()
         channels = [32, 64, 128, 256, 256]
         self.conv1 = ConvReLU(in_data, channels[0])
         self.conv2 = nn.Sequential(
