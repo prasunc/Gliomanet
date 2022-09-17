@@ -4,9 +4,9 @@ import math
 
 from BasicModule import *
 
-class ModuleTest2(nn.Module):
+class Test2(nn.Module):
     def __init__(self, in_data=4, out_data=5):
-        super(ModuleTest2, self).__init__()
+        super(Test2, self).__init__()
         kn = [32, 64, 128, 256]
 
         self.layer1_conv1 = DilationConvBlock(in_data, kn[0])
