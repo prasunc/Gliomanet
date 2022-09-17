@@ -33,7 +33,6 @@ class ModuleTest2(nn.Module):
 
         self.max_pool = nn.MaxPool3d(kernel_size=2, stride=2, padding=0)
 
-        # 初始化
         for m in self.modules():
             if isinstance(m, nn.Conv3d):
                 n = m.kernel_size[0] * m.kernel_size[1] * m.out_channels
