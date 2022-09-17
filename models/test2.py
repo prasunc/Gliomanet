@@ -2,7 +2,7 @@ import torch as t
 import torch.nn as nn
 import math
 
-from .BasicModule import *
+from BasicModule import *
 
 class ModuleTest2(nn.Module):
     def __init__(self, in_data=4, out_data=5):
